@@ -51,7 +51,22 @@ Seperator: The entire key should have no spaces. No spaces in general. The seper
 /DSIZE: Data size, \
 /INCLUDEINS: include instruction. 
 
-# Please try to understand the code and then you would have a greater idea of what to write.
+## Example Language.json
+    {
+        "ELF": "",
+        "x86": "",
+        "SET": {
+            "#include:/*DVALUE/INCLUDEINS/S ": "includeFuncs",
+            "BasicIO/INCLUDE": {
+                "print:/*DVALUE/*DNAME/S ": "printINS",
+                "input:/*DNAME/*DSIZE/S ": "inputINS",
+                "clean:/S": "cleanupINS",
+                "return:/*DVALUE/S ": "returnINS"
+            }
+        }
+    }
+
+### Please try to understand the code and then you would have a greater idea of what to write.
 
 # Running PLTEC
 ## Basic Question asked
