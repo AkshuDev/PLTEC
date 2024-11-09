@@ -24,15 +24,15 @@ PLTEC is a complex tool but its working i very simple. The program comes include
 ## Explanation
 The above format is what is required to be followed to run this program successfully. \
 The first key-value pairs are the executable format and BITS type [Commonly x86 used]. x86 means 32-bit and x64 means 64-bit but most modern OS support both \
-The next key should be 'SET' and it should be a JSON object. All the key-value pairs inside it are the actual functions. \
+The next key should be 'SET' and it should be a JSON object. All the key-value pairs inside it are the actual functions. 
 
-In 'SET' the following keys are optional -> \
+In 'SET' the following keys are optional -> 
 1. A Instruction Syntax followed by /INCLUDEINS (Include Instruction, means that the specified instruction is a instruction used to import specific functions that are not available globally.) 
 2. A Name followed by /INCLUDE (Include File, means that if the user use the include instruction and provide this specific name, the program then imports the functions inside the specific JSON object and the same JSON object inside the Language SET.) 
 
 This allows the program to take less storage as only the functions, that the user imported are present. 
 
-In 'SET' the following keys are required -> \
+In 'SET' the following keys are required -> 
 1. A Instruction key 
 
 ## The format for all instruction keys. (Including Include Instruction keys)
