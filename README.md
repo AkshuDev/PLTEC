@@ -114,7 +114,7 @@ Seperator: The entire key should have no spaces. No spaces in general. The seper
     xor ebp, ebp
     ret
 
-### Please try to understand the code and then you would have a greater idea of what to write.
+### Please try to understand the source code and then you would have a greater idea of what to write in Lang.json.
 
 # Running PLTEC
 ## Basic Question asked
