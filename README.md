@@ -7,19 +7,19 @@ PLTEC or Pheonix Language To Executable Convert is a flexible tool designed to c
 ## How does it work?
 PLTEC is a complex tool but its working i very simple. The program comes included with a language set (JSON) file which has key-value pairs. The keys are the function names and the values are Their Assembly code. It has various sections like -> dataSECTION, bssSECTION, etc. The user can provide or use the default Language (JSON) file which has the following format -> 
 
-  {
-    "[Executable type (in uppercase)]": "",
-    "[x86 or x64]": "",
-    "SET": {
-      "[The include syntax]/*DVALUE/INCLUDEINS/S[The seperator you want. Common - ' ']": "includeFuncs",
-      [Some more includes if you like],
-      "[The include file name]/INCLUDE": {
-        "[The function syntax]": "[The function it needs to call in the language SET]",
-        [Some more funcs and stuff]
-      },
-      [Some more include files if you want]
+    {
+      "[Executable type (in uppercase)]": "",
+      "[x86 or x64]": "",
+      "SET": {
+        "[The include syntax]/*DVALUE/INCLUDEINS/S[The seperator you want. Common - ' ']": "includeFuncs",
+        [Some more includes if you like],
+        "[The include file name]/INCLUDE": {
+          "[The function syntax]": "[The function it needs to call in the language SET]",
+          [Some more funcs and stuff]
+        },
+        [Some more include files if you want]
+      }
     }
-  }
 
 ## Explanation
 The above format is what is required to be followed to run this program successfully. \
